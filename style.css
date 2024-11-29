@@ -313,6 +313,7 @@ main nav ul a{
 #produktbilder{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 #produkt_informasjon{
@@ -324,11 +325,11 @@ main nav ul a{
     flex-direction: column;
     margin-left: 10px;
     gap: 10px;
-    max-width: 160px;
+    max-width: 120px;
 }
 
 #stort{
-    width:100%;
+    width:300px;
     height: auto;
 }
 
@@ -705,7 +706,7 @@ footer{
     }
 
     #mindre{
-        max-width: 170px;
+        max-width: 160px;
     }
 
     .produkt_2{
